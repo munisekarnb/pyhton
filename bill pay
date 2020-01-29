@@ -1,0 +1,30 @@
+print("bill")
+def prime(a,b):
+    c=a*100
+    print(c)
+def medium(a,b):
+    c=a*10
+    print(c)
+def low(a,b):
+    c=a*5
+    print(c)
+    
+cus_name=input("enter the name")
+src=input("enter the src")
+des=input("enter the des")
+dist=input("enter the dist")
+typ=input("enter the type")
+
+print (cus_name)
+print(src)
+print(des)
+print(dist)
+print(typ)
+
+if(typ== "prime"):
+    prime(dist,100)
+if(typ== "medium"):
+    medium(dist,10)
+if(typ== "low"):
+    low(dist,5)
+    
